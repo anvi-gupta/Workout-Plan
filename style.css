@@ -13,17 +13,28 @@ body{
     border: solid 4px lightgray;
     width: 13%;
     margin: 4px;
-    float: left;
+    text-align: center;
 }
 h2{
     font-size: 18px;
 }
 .img{
-    width: 160px;
+    width: 95%;
 }
 #color{
     background-color: gray;
 }
 #ee{
     text-align: center;
+}
+#cont{
+    display: flex;
+}
+@media only screen and (max-width:600px){
+    body{
+        text-align: center;
+    }
+    .cont{
+        justify-content: center;
+    }
 }
